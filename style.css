@@ -7,7 +7,8 @@
 body {
     background-color: #263D40;
     font-family: sans-serif;
-    padding: 30px 30px
+    padding: 30px 30px;
+    line-height: 1.5;
 }
 
 #cityName {
@@ -19,9 +20,13 @@ table, th, td {
     border: 1px solid #078C7F;
     border-collapse: collapse;
     text-align: center;
-    color: #BF9F63;
+    color: #867149;
     padding: 0.5rem 0.5rem;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.text {
+    color: #867149;
 }
 

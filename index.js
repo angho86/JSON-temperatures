@@ -108,8 +108,8 @@ function warmColdDays(data){
     const warmDayHtml = document.getElementById("warmestAvg");
     const coldDayHtml = document.getElementById("coldestAvg");
 
-    warmDayHtml.innerHTML = warmerDay.day + ' (' + warmerDay.avgTemp + ' &deg;C)';
-    coldDayHtml.innerHTML = coldestDay.day + ' (' + coldestDay.avgTemp + ' &deg;C)';
+    warmDayHtml.innerHTML = warmerDay.day + ' - (' + warmerDay.avgTemp + ' &deg;C) ';
+    coldDayHtml.innerHTML = coldestDay.day + ' - (' + coldestDay.avgTemp + ' &deg;C)';
 }
 
 
