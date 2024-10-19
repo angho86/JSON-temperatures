@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1><span id="cityName"></span></h1>
+
+    <div class="Date">Start Date: <span id="startDate"></span></div>
+    <div class="Date">End Date: <span id="endDate"></span></div>
+
+    <div class="statsTable">
+        <table >
+            <thead>
+                <tr>
+                    <th class="warm">Data</th>
+                    <th>Min. Temp.</th>
+                    <th>Max. Temp.</th>
+                    <th>Avg. Temp.</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <p><b>Šilčiausia (pagal vid. temp.) diena:</b> <span id="warmestAvg"></span></p>
+    <p><b>Šalčiausia (pagal vid. temp.) diena:</b> <span id="coldestAvg"></span></p>
+
+    <script src="index.js"></script>
+</body>
+</html>

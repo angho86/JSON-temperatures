@@ -1,0 +1,1 @@
+Atvaizduojam bazinius duomenis apie temperaturas 
